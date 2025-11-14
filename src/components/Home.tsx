@@ -1,6 +1,6 @@
 //Home component
 import Resume from '../assets/final_resume (Soft Dev).pdf';
-import ProfilePic from '../assets/profile_pic_2.jpg';
+import ProfilePic from '../assets/profile_pic.jpg';
 import { BsPaperclip } from "react-icons/bs";
 
 
