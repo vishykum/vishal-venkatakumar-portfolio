@@ -75,7 +75,9 @@ function Experience() {
 
 
         {/* Desktop/Laptop Layout */}
-        <div className="bg-neutral-800 h-1/2 w-full hidden md:flex  flex-col justify-around 2xl:justify-start 2xl:pt-3 items-center px-1 mt-2">
+        <div className="bg-neutral-800 hover:bg-neutral-900 transition-colors duration-300 ease-in-out h-1/2 w-full hidden md:flex
+            flex-col justify-around 2xl:justify-start 2xl:pt-3 items-center px-1 mt-2"
+        >
         <h2 className="text-3xl">Education & Experience</h2>
             <Timeline position="alternate">
                 {experience.map((item, idx) => (
