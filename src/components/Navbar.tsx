@@ -17,7 +17,7 @@ function Navbar() {
 
     return (
         <>
-            <nav ref={navRef} id="navbar" className="w-full h-15 bg-black/90 top-0 sticky z-50">
+            <nav ref={navRef} id="navbar" className="relative w-full h-15 bg-black/90 top-0 sticky z-50">
                 {/* Mobile Layout */}
                 <div className="flex md:hidden flex-row items-center justify-around h-full w-full">
                     <div id="logo-nav-div-mobile" className="h-full w-1/4 flex justify-center items-center">
@@ -45,7 +45,7 @@ function Navbar() {
                     </div>
                 </div>
                 {/* Mobile Dropdown Menu */}
-                <ul className={`h-50 w-full md:hidden bg-neutral-800 text-xl text-primary flex flex-col items-center justify-around transition-all duration-200 ease-out origin-top
+                <ul className={`absolute left-0 top-full w-full md:hidden bg-neutral-800 text-xl text-primary flex flex-col gap-2 pb-2 items-center justify-around transition-all duration-200 ease-out origin-top
                      ${hamburgerClicked ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-2 pointer-events-none"}`
                 }>
                     <a onClick={() => {setHamburgerClicked(false)}} href="#home" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
