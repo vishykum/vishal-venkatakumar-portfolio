@@ -45,19 +45,19 @@ function Navbar() {
                     </div>
                 </div>
                 {/* Mobile Dropdown Menu */}
-                <ul className={`h-50 w-full bg-neutral-900 text-xl text-primary ${hamburgerClicked ? "flex flex-col items-center justify-around" : "hidden"}`}>
-                    <li className="flex flex-col items-center justify-center h-full w-full active:bg-neutral-700/30 active:text-white">
-                        Home
-                    </li>
-                    <li className="flex flex-col items-center justify-center h-full w-full active:bg-neutral-700/30 active:text-white">
-                        About
-                    </li>
-                    <li className="flex flex-col items-center justify-center h-full w-full active:bg-neutral-700/30 active:text-white">
+                <ul className={`h-50 w-full bg-neutral-800 text-xl text-primary ${hamburgerClicked ? "flex flex-col items-center justify-around" : "hidden"}`}>
+                    <a href="#home" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
+                            Home
+                    </a>
+                    <a href="#about" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
+                            About
+                    </a>
+                    <a href="#home" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
                         Education & Experience
-                    </li>
-                    <li className="flex flex-col items-center justify-center h-full w-full active:bg-neutral-700/30 active:text-white">
+                    </a>
+                    <a href="#home" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
                         Projects
-                    </li>
+                    </a>
                 </ul>
 
                 {/* Laptop/Desktop Layout */}
@@ -67,56 +67,64 @@ function Navbar() {
                     </div>
                     <div id="page-links-nav-div-desktop" className="h-full w-1/2 flex justify-center items-center">
                         <ul className="flex justify-around items-center h-full w-full">
-                            <li className="group/home flex flex-col items-start justify-start">
-                                <span className="flex-1">Home</span>
-                                <span
-                                 className="
-                                 bg-primary
-                                 w-full
-                                 h-0.5
-                                 origin-center
-                                 scale-x-0
-                                 transition-transform
-                                 duration-300
-                                 group-hover/home:scale-x-100"
-                                 />
-                            </li>
-                            <li className="group/about flex flex-col items-start justify-start">
-                                <span className="flex-1">About</span>
-                                <span className="
-                                 bg-primary
-                                 w-full
-                                 h-0.5
-                                 origin-center
-                                 scale-x-0
-                                 transition-transform
-                                 duration-300
-                                 group-hover/about:scale-x-100" />
-                            </li>
-                            <li className="group/experience flex flex-col items-start justify-start">
-                                <span className="flex-1">Education & Experience</span>
-                                <span className="
-                                 bg-primary
-                                 w-full
-                                 h-0.5
-                                 origin-center
-                                 scale-x-0
-                                 transition-transform
-                                 duration-300
-                                 group-hover/experience:scale-x-100" />
-                            </li>
-                            <li className="group/projects flex flex-col items-start justify-start">
-                                <span className="flex-1">Projects</span>
-                                <span className="
-                                 bg-primary
-                                 w-full
-                                 h-0.5
-                                 origin-center
-                                 scale-x-0
-                                 transition-transform
-                                 duration-300
-                                 group-hover/projects:scale-x-100" />
-                            </li>
+                            <a href="#home" className="cursor-pointer">
+                                <li className="group/home flex flex-col items-start justify-start">
+                                    <span className="flex-1">Home</span>
+                                    <span
+                                     className="
+                                     bg-primary
+                                     w-full
+                                     h-0.5
+                                     origin-center
+                                     scale-x-0
+                                     transition-transform
+                                     duration-300
+                                     group-hover/home:scale-x-100"
+                                     />
+                                </li>
+                            </a>
+                            <a href="#about" className="cursor-pointer">
+                                <li className="group/about flex flex-col items-start justify-start">
+                                    <span className="flex-1">About</span>
+                                    <span className="
+                                     bg-primary
+                                     w-full
+                                     h-0.5
+                                     origin-center
+                                     scale-x-0
+                                     transition-transform
+                                     duration-300
+                                     group-hover/about:scale-x-100" />
+                                </li>
+                            </a>
+                            <a href="#home" className="cursor-pointer">
+                                <li className="group/experience flex flex-col items-start justify-start">
+                                    <span className="flex-1">Education & Experience</span>
+                                    <span className="
+                                     bg-primary
+                                     w-full
+                                     h-0.5
+                                     origin-center
+                                     scale-x-0
+                                     transition-transform
+                                     duration-300
+                                     group-hover/experience:scale-x-100" />
+                                </li>
+                            </a>
+                            <a href="#home" className="cursor-pointer">
+                                <li className="group/projects flex flex-col items-start justify-start">
+                                    <span className="flex-1">Projects</span>
+                                    <span className="
+                                     bg-primary
+                                     w-full
+                                     h-0.5
+                                     origin-center
+                                     scale-x-0
+                                     transition-transform
+                                     duration-300
+                                     group-hover/projects:scale-x-100" />
+                                </li>
+                            </a>
                         </ul>
                     </div>
                     <div id="external-links-nav-div-desktop" className="h-full w-1/4 flex justify-center items-center">

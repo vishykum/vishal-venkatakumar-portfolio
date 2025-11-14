@@ -6,9 +6,9 @@ import { BsPaperclip } from "react-icons/bs";
 
 function Home() {
     return (
-        <>
+        <section id="home" className='scroll-mt-16'>
         {/* Mobile Layout */}
-        <div className="bg-neutral-800 h-3/4 w-full flex flex-col justify-center items-center md:hidden mr-2">
+        <div className="bg-neutral-900 h-3/4 w-full flex flex-col justify-around items-center md:hidden mr-2 pb-2">
             <div className="h-50 w-50 rounded-full bg-neutral-300">
                 <img 
                     title="Profile Pic"
@@ -17,7 +17,7 @@ function Home() {
                     className='w-full h-full object-cover rounded-full'
                 />
             </div>
-            <h1 className="text-primary font-mono flex flex-col justify-center items-center">
+            <h1 className="text-primary font-mono flex flex-col justify-around items-center">
                 <span>Vishal</span>
                 <span>Venkatakumar</span>
                 </h1>
@@ -26,7 +26,7 @@ function Home() {
             </div>
             <p className="mt-2 text-l text-center">Full-Stack Web Development | React | Express | SQL Databases</p>
             <a href={Resume} download="Resume_VishalVenkatakumar" target='_blank'>
-                <button className="flex justify-center items-center mt-2 text-white active:text-primary">
+                <button className="flex justify-center items-center mt-2 bg-neutral-800 active:bg-white/30 text-white active:text-primary">
                     Resume <BsPaperclip className="ml-2" />
                 </button>
             </a>
@@ -34,7 +34,7 @@ function Home() {
 
 
         {/* Desktop/Laptop Layout */}
-        <div className="bg-neutral-800 h-3/4 w-full hidden md:flex flex-col justify-center items-center">
+        <div className="bg-neutral-900 h-3/4 w-full hidden md:flex flex-col justify-center items-center pb-3">
             <div className="h-50 w-50 rounded-full bg-neutral-300">
                 <img 
                     title="Profile Pic"
@@ -49,12 +49,12 @@ function Home() {
             </div>
             <p className="mt-2 text-xl">Full-Stack Web Development | React | Express | SQL Databases</p>
             <a href={Resume} download="Resume_VishalVenkatakumar" target='_blank'>
-                <button className="flex justify-center items-center mt-2 text-white hover:text-primary">
+                <button className="flex justify-center items-center mt-2 bg-neutral-800 hover:bg-white/30 text-white hover:text-primary">
                     Resume <BsPaperclip className="ml-2" />
                 </button>
             </a>
         </div>
-        </>
+        </section>
     );
 }
 
