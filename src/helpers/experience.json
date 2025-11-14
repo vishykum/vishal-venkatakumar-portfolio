@@ -1,0 +1,22 @@
+[
+    {
+        "title": "SAP",
+        "fromto": "September 2023 - May 2024",
+        "fromtomobile": "Sep 2023 - May 2024",
+        "institution": "SAP Canada",
+        "position": "Product Support Intern (Netweaver Core - Upgrades)",
+        "description": [
+            "Resolved production-down SAP NetWeaver incidents for Fortune 500 clients, coordinating fixes and minimizing major financial impact.",
+            "Performed root-cause analysis on upgrade failures by debugging ABAP, configs, and logs; delivered corrections and SAP Notes to boost system reliability.",
+            "Published technical KBAs with senior engineers to improve documentation quality and reduce recurring support cases."
+        ]
+    },
+    {
+        "title": "SFU",
+        "fromto": "September 2019 - February 2025",
+        "fromtomobile": "Sep 2019 - Feb 2025",
+        "institution": "Simon Fraser University",
+        "position": "B.Sc in Computing Science",
+        "description": []
+    }
+]

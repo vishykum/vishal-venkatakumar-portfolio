@@ -34,7 +34,7 @@ function Home() {
 
 
         {/* Desktop/Laptop Layout */}
-        <div className="bg-neutral-900 h-3/4 w-full hidden md:flex flex-col justify-center items-center pb-3">
+        <div className="bg-neutral-900 h-3/4 w-full hidden md:flex flex-col 2xl:h-[75vh] justify-center xl:gap-4 items-center pb-3 pt-2">
             <div className="h-50 w-50 rounded-full bg-neutral-300">
                 <img 
                     title="Profile Pic"

@@ -17,7 +17,7 @@ function Navbar() {
 
     return (
         <>
-            <nav ref={navRef} id="navbar" className="w-full h-15 bg-black top-0 sticky">
+            <nav ref={navRef} id="navbar" className="w-full h-15 bg-black top-0 sticky z-50">
                 {/* Mobile Layout */}
                 <div className="flex md:hidden flex-row items-center justify-around h-full w-full">
                     <div id="logo-nav-div-mobile" className="h-full w-1/4 flex justify-center items-center">
@@ -46,16 +46,16 @@ function Navbar() {
                 </div>
                 {/* Mobile Dropdown Menu */}
                 <ul className={`h-50 w-full bg-neutral-800 text-xl text-primary ${hamburgerClicked ? "flex flex-col items-center justify-around" : "hidden"}`}>
-                    <a href="#home" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
+                    <a onClick={() => {setHamburgerClicked(false)}} href="#home" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
                             Home
                     </a>
-                    <a href="#about" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
+                    <a onClick={() => {setHamburgerClicked(false)}} href="#about" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
                             About
                     </a>
-                    <a href="#home" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
+                    <a onClick={() => {setHamburgerClicked(false)}} href="#experience" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
                         Education & Experience
                     </a>
-                    <a href="#home" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
+                    <a onClick={() => {setHamburgerClicked(false)}} href="#home" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
                         Projects
                     </a>
                 </ul>
@@ -97,7 +97,7 @@ function Navbar() {
                                      group-hover/about:scale-x-100" />
                                 </li>
                             </a>
-                            <a href="#home" className="cursor-pointer">
+                            <a href="#experience" className="cursor-pointer">
                                 <li className="group/experience flex flex-col items-start justify-start">
                                     <span className="flex-1">Education & Experience</span>
                                     <span className="
