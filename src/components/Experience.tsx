@@ -6,7 +6,6 @@ import {
   TimelineConnector,
   TimelineContent,
   TimelineDot,
-  TimelineOppositeContent,
 } from "@mui/lab";
 
 import { Card, CardContent, Typography } from "@mui/material";
