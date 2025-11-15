@@ -1,4 +1,4 @@
-
+//About section
 
 function About() {
     return (

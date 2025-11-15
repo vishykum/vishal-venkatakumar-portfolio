@@ -57,7 +57,7 @@ function Navbar() {
                     <a onClick={() => {setHamburgerClicked(false)}} href="#experience" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
                         Education & Experience
                     </a>
-                    <a onClick={() => {setHamburgerClicked(false)}} href="#home" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
+                    <a onClick={() => {setHamburgerClicked(false)}} href="#projects" className="h-full w-full active:bg-neutral-700/30 active:text-white flex items-center justify-center">
                         Projects
                     </a>
                 </ul>
@@ -113,7 +113,7 @@ function Navbar() {
                                      group-hover/experience:scale-x-100" />
                                 </li>
                             </a>
-                            <a href="#home" className="cursor-pointer">
+                            <a href="#projects" className="cursor-pointer">
                                 <li className="group/projects flex flex-col items-start justify-start">
                                     <span className="flex-1">Projects</span>
                                     <span className="

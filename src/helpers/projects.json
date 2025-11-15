@@ -1,0 +1,44 @@
+[
+    {
+        "img_url": "",
+        "name": "AI-Powered Email Responder",
+        "description": [
+            "Built a full-stack email management platform with Gmail OAuth2 to sync and manage multiple inboxes in one interface.",
+            "Added AI-powered email reply generation, producing personalized responses using a Groq-hosted OpenAI-compatible LLM.",
+            "Implemented a Redis-backed background job queue for Gmail sync + AI inference, improving performance by ~30%.",
+            "Developed a scalable Express + Prisma backend with optimized queries and structured logging (Winston)."
+        ],
+        "tech": [
+            "React",
+            "Vite",
+            "Tailwind",
+            "Express.js",
+            "MySQL",
+            "OpenAI API",
+            "OAuth2",
+            "Winston",
+            "Prisma"
+        ]
+    },
+    {
+        "img_url": "fitness-tracker-pic.png",
+        "name": "Fitness Tracker Web App",
+        "description": [
+            "Built a full-stack fitness tracking web app (React-Vite, Express, MySQL) with real-time data visualization.",
+            "Implemented secure auth using bcrypt and JWT.",
+            "Optimized database performance via connection pooling and query tuning for faster load times.",
+            "Deployed via Railway CI/CD with automated container builds."
+        ],
+        "tech": [
+            "React",
+            "Vite",
+            "Tailwind",
+            "Express.js",
+            "MySQL",
+            "Recharts",
+            "JWT",
+            "gh-pages",
+            "Railway"
+        ]
+    }
+]
