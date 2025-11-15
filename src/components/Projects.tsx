@@ -37,7 +37,7 @@ function Projects() {
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0, x: -40 }}
                         transition={{ duration: 0.25, ease: "easeInOut" }}
-                        className="h-[70vh] w-full flex flex-col justify-center items-center border border-primary rounded-sm"
+                        className="h-[75vh] w-full flex flex-col justify-center items-center border border-primary rounded-sm"
                     >
                         <div className="h-1/2 w-full">
                             <img 
