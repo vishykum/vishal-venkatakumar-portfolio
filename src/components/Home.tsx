@@ -39,11 +39,12 @@ function Home() {
             src={ReactLogo}
             alt="React Logo"
             className="absolute opacity-60 w-10 h-10"
-            initial={false}
+            style={{ top: "8%", left: "12%" }}   // start position
+            initial={{ x: 0, y: 0 }}
             animate={{
                 // wander around
-                top:  ["10%", "60%", "30%", "75%", "20%", "50%", "10%"],
-                left: ["15%", "80%", "40%", "25%", "70%", "10%", "15%"],
+                x: [0, 260, -120, 240, -180, 140, 0],
+                y: [0, -160, 220, -90, 260, -40, 0],
                 // little jumpy scale
                 scale: [1, 1.1, 0.95, 1.05, 1],
                 rotate: [0, 10, -10, 5, -5, 0],
@@ -59,11 +60,12 @@ function Home() {
             src={NodeLogo}
             alt="NodeJS Logo"
             className="absolute opacity-90 w-10 h-10"
-            initial={false}
+            style={{ top: "72%", left: "18%" }}   // start position
+            initial={{ x: 0, y: 0 }}
             animate={{
                 // wander around
-                top:  ["65%", "20%", "85%", "35%", "70%", "15%", "65%"],
-                left: ["75%", "60%", "30%", "55%", "10%", "45%", "75%"],
+                x: [0, -200, 140, -260, 160, -120, 0],
+                y: [0, -280, -60, 220, 80, 260, 0],
                 // little jumpy scale
                 scale: [1, 1.1, 0.95, 1.05, 1],
                 rotate: [0, 10, -10, 5, -5, 0],
@@ -79,11 +81,12 @@ function Home() {
             src={MySQLLogo}
             alt="MySQL Logo"
             className="absolute opacity-90 w-10 h-10"
-            initial={false}
+            style={{ top: "15%", left: "78%" }}   // start position
+            initial={{ x: 0, y: 0 }}
             animate={{
                 // wander around
-                top:  ["12%", "40%", "18%", "60%", "25%", "10%", "12%"],
-                left: ["18%", "50%", "75%", "30%", "60%", "10%", "18%"],
+                x: [0, -240, 220, -160, 180, -80, 0],
+                y: [0, 120, -180, 240, -120, 80, 0],
                 // little jumpy scale
                 scale: [1, 1.05, 0.98, 1.08, 1],
                 rotate: [0, -8, 12, -6, 6, 0],
@@ -122,11 +125,12 @@ function Home() {
             src={ReactLogo}
             alt="React Logo"
             className="absolute opacity-60 w-14 h-14"
-            initial={false}
+            style={{ top: "8%", left: "12%" }}   // start position
+            initial={{ x: 0, y: 0 }}
             animate={{
                 // wander around
-                top:  ["10%", "60%", "30%", "75%", "20%", "50%", "10%"],
-                left: ["15%", "80%", "40%", "25%", "70%", "10%", "15%"],
+                x: [0, 260, -120, 240, -180, 140, 0],
+                y: [0, -160, 220, -90, 260, -40, 0],
                 // little jumpy scale
                 scale: [1, 1.1, 0.95, 1.05, 1],
                 rotate: [0, 10, -10, 5, -5, 0],
@@ -142,11 +146,12 @@ function Home() {
             src={NodeLogo}
             alt="NodeJS Logo"
             className="absolute opacity-90 w-14 h-14"
-            initial={false}
+            style={{ top: "72%", left: "18%" }}   // start position
+            initial={{ x: 0, y: 0 }}
             animate={{
                 // wander around
-                top:  ["65%", "20%", "85%", "35%", "70%", "15%", "65%"],
-                left: ["75%", "60%", "30%", "55%", "10%", "45%", "75%"],
+                x: [0, -200, 140, -260, 160, -120, 0],
+                y: [0, -280, -60, 220, 80, 260, 0],
                 // little jumpy scale
                 scale: [1, 1.1, 0.95, 1.05, 1],
                 rotate: [0, 10, -10, 5, -5, 0],
@@ -162,11 +167,12 @@ function Home() {
             src={MySQLLogo}
             alt="MySQL Logo"
             className="absolute opacity-90 w-14 h-14"
-            initial={false}
+            style={{ top: "15%", left: "78%" }}   // start position
+            initial={{ x: 0, y: 0 }}
             animate={{
                 // wander around
-                top:  ["12%", "40%", "18%", "60%", "25%", "10%", "12%"],
-                left: ["18%", "50%", "75%", "30%", "60%", "10%", "18%"],
+                x: [0, -240, 220, -160, 180, -80, 0],
+                y: [0, 120, -180, 240, -120, 80, 0],
                 // little jumpy scale
                 scale: [1, 1.05, 0.98, 1.08, 1],
                 rotate: [0, -8, 12, -6, 6, 0],
