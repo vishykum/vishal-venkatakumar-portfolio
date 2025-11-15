@@ -21,7 +21,9 @@ function Navbar() {
                 {/* Mobile Layout */}
                 <div className="flex md:hidden flex-row items-center justify-around h-full w-full">
                     <div id="logo-nav-div-mobile" className="h-full w-1/4 flex justify-center items-center">
-                        <h2 className="text-4xl text-primary font-mono">Vishal</h2>
+                        <a href="#home" className="cursor-pointer">
+                            <h2 className="text-4xl text-primary font-mono">Vishal</h2>
+                        </a>
                     </div>
                     <div id="links-nav-div-mobile" className="h-full w-1/4 flex justify-center items-center">
                         <ul className="flex justify-center items-center h-full w-full">
@@ -65,7 +67,16 @@ function Navbar() {
                 {/* Laptop/Desktop Layout */}
                 <div className="hidden md:flex flex-row items-center justify-start h-full w-full">
                     <div id="logo-nav-div-desktop" className="h-full w-1/4 flex justify-center items-center">
-                        <h2 className="text-4xl text-primary font-mono">Vishal</h2>
+                        <a href="#home" className="group relative inline-flex cursor-pointer">
+                            <span className="text-4xl text-primary font-mono leading-none">V</span>
+                            <span className="
+                                text-4xl text-primary
+                                font-mono inline-block overflow-hidden
+                                max-w-0 group-hover:max-w-[500px]
+                                transition-all duration-800 ease-in-out
+                                leading-none align-baseline
+                            ">ishal</span>
+                        </a>
                     </div>
                     <div id="page-links-nav-div-desktop" className="h-full w-1/2 flex justify-center items-center">
                         <ul className="flex justify-around items-center h-full w-full">
