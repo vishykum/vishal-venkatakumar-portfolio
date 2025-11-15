@@ -93,17 +93,20 @@ function Projects() {
                                 />
                             </div>
                             <div className="h-full w-1/2 border-l border-primary flex flex-col justify-around items-center">
-                                <h2 className="text-primary text-xl font-bold font-mono">{projects[projIndex].name}</h2>
-                                <div className="flex justify-center items-center">
-                                    {projects[projIndex].tech && projects[projIndex].tech.map((item, idx) => (
-                                        <div key={idx} className="text-sm mx-0.5 text-center border-2 rounded-lg p-px bg-white/20 hover:bg-white/90 text-white hover:text-black hover:border-primary cursor-pointer">{item}</div>
-                                    ))}
+                                <div className="w-full h-1/4" />
+                                <h2 className="text-primary text-xl 2xl:text-3xl font-bold font-mono">{projects[projIndex].name}</h2>
+                                <div className="h-full w-full flex flex-col justify-center items-center gap-3">
+                                    <div className="flex justify-center items-center">
+                                        {projects[projIndex].tech && projects[projIndex].tech.map((item, idx) => (
+                                            <div key={idx} className="text-sm 2xl:text-lg mx-0.5 text-center border-2 rounded-lg p-px bg-white/20 hover:bg-white/90 text-white hover:text-black hover:border-primary cursor-pointer">{item}</div>
+                                        ))}
+                                    </div>
+                                    <ul className="ml-5 list-disc">
+                                        {projects[projIndex].description && projects[projIndex].description.map((item, idx) => (
+                                            <li key={idx} className="text-sm 2xl:text-lg mb-1">{item}</li>
+                                        ))}
+                                    </ul>
                                 </div>
-                                <ul className="ml-5 list-disc">
-                                    {projects[projIndex].description && projects[projIndex].description.map((item, idx) => (
-                                        <li key={idx} className="text-sm mb-1">{item}</li>
-                                    ))}
-                                </ul>
                             </div>
                         </motion.div>
                     </AnimatePresence>
