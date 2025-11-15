@@ -17,7 +17,7 @@ function Navbar() {
 
     return (
         <>
-            <nav ref={navRef} id="navbar" className="fixed w-full h-15 bg-black/90 top-0 z-50">
+            <nav ref={navRef} id="navbar" className="fixed md:sticky w-full h-15 bg-black/90 top-0 inset-x-0 z-50">
                 {/* Mobile Layout */}
                 <div className="flex md:hidden flex-row items-center justify-around h-full w-full">
                     <div id="logo-nav-div-mobile" className="h-full w-1/4 flex justify-center items-center">

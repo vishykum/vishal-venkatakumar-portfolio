@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='h-screen overflow-y-auto scroll-smooth w-full'>
       <Navbar />
-      <main className='pt-15'>
+      <main className='pt-15 md:pt-0'>
         <Home />
         <About />
         <Experience />
