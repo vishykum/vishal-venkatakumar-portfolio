@@ -7,11 +7,13 @@ import Experience from './components/Experience';
 function App() {
 
   return (
-    <div className='h-screen w-screen overflow-y-auto scroll-smooth'>
+    <div className='h-screen overflow-y-auto scroll-smooth w-full'>
       <Navbar />
-      <Home />
-      <About />
-      <Experience />
+      <main className='pt-15'>
+        <Home />
+        <About />
+        <Experience />
+      </main>
     </div>
   )
 }

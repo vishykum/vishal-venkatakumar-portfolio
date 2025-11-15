@@ -8,7 +8,7 @@ function Home() {
     return (
         <section id="home" className='scroll-mt-16'>
         {/* Mobile Layout */}
-        <div className="bg-neutral-900 h-3/4 w-full flex flex-col justify-around items-center md:hidden mr-2 pb-2">
+        <div className="bg-neutral-900 h-3/4 w-full flex flex-col justify-around items-center md:hidden mr-2 py-2">
             <div className="h-50 w-50 rounded-full bg-neutral-300">
                 <img 
                     title="Profile Pic"
