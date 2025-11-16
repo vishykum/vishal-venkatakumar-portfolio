@@ -40,5 +40,20 @@
             "gh-pages",
             "Railway"
         ]
+    },
+    {
+        "img_url": "emergency-reporting-pic.png",
+        "name": "Emergency Reporting Web App",
+        "description": [
+            "Built a web-based emergency reporting system using React + TypeScript + Bootstrap with Leaflet maps, allowing users to log incidents with location markers and details.",
+            "Implemented secure passcode-based access using MD5 hashing and DOM Storage for protected report updates and deletions.",
+            "Enhanced usability with sortable report lists and interactive map markers that dynamically adjust based on zoom levels."
+        ],
+        "tech": [
+            "React",
+            "Vite",
+            "Bootstrap",
+            "Leaflet"
+        ]
     }
 ]
